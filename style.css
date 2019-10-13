@@ -1,0 +1,60 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #000;
+}
+
+.converter {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.slider label {
+  width: 30px;
+  height: 20px;
+  line-height: 20px;
+}
+
+.slider span {
+  width: 50px;
+}
+
+.red,
+.green,
+.blue {
+  border-radius: 5px;
+  display: inline-block;
+  padding: 2px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.hex-value {
+  width: 100%;
+  background-color: rgba(255,255,255,0.5);
+  font-size: 32px;
+  border-radius: 5px;
+}
